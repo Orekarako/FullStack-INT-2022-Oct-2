@@ -106,6 +106,9 @@ export const imageSlice = createSlice({
         
         },
     },
+    // extraReducers(builder) {
+    //     builder.addCase()
+    // },
 })
 
 export const { addNewImage, deleteImage, updateImage } = imageSlice.actions
