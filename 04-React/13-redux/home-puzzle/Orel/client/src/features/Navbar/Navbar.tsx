@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { AddImage } from '../ImgBox/ImgBox';
+import { AddImage } from "../images/AddImage";
 import LinkSrc from '../LinkSrc/LinkSrc';
 // import ControllableStates from '../Search/Search';
 

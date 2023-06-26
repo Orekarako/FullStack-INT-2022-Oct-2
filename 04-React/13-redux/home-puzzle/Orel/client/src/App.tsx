@@ -5,7 +5,7 @@ import { Box, Container, Typography } from "@mui/material"
 import Navbar from './features/Navbar/Navbar'
 import {
   selectImage, IImage
-} from "./features/ImgBox/imgBoxSlice";
+} from "./features/images/imgBoxSlice";
 import PhotoCard from "./features/Card/PhotoCard"
 import ImageScreen from "./features/ImageScreen/ImageScreen";
 

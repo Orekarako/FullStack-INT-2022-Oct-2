@@ -1,7 +1,7 @@
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-import { ImageCategory, selectImage } from '../ImgBox/imgBoxSlice';
+import { ImageCategory, selectImage } from '../images/imgBoxSlice';
 import theme from '../../theme';
 import { useAppSelector } from '../../app/hooks';
 

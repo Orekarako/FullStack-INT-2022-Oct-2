@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit"
-import ImgBox from "../features/ImgBox/imgBoxSlice"
+import ImgBox from "../features/images/imgBoxSlice"
 
 export const store = configureStore({
   reducer: {

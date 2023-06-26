@@ -5,7 +5,8 @@ import CardMedia from '@mui/material/CardMedia';
 
 import Typography from '@mui/material/Typography';
 import { Box, CardActionArea } from '@mui/material';
-import { UpdateImageByID , DeleteImageByID} from '../ImgBox/ImgBox';
+import { DeleteImageByID } from "../images/DeleteImageByID";
+import { UpdateImageByID } from "../images/UpdateImageByID";
 
 export interface PhotoCardProps {
   name: string,

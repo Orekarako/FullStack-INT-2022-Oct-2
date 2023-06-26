@@ -4,7 +4,7 @@ import { Box, Paper, TextField, Typography, styled , Button } from '@mui/materia
 import theme from '../../theme';
 import { useState } from 'react';
 import { useAppDispatch } from '../../app/hooks';
-import { addNewImage } from '../ImgBox/imgBoxSlice';
+import { addNewImage } from '../images/imgBoxSlice';
 
 
 
