@@ -10,8 +10,11 @@ import { Box, Button, FormControl, InputLabel, MenuItem, Select, SelectChangeEve
 import SendIcon from '@mui/icons-material/Send';
 import theme from "../../theme";
 
+export interface updateImageByIDProps{
+    id:string
+}
 
-export const UpdateImageByID: React.FC<{id:string}> = ({ id }) => {
+export const UpdateImageByID: React.FC<updateImageByIDProps> = ({ id }) => {
     const [open, setOpen] = useState<boolean>(false);
     const dispatch = useAppDispatch();
     const [category, setCategory] = useState<string>('');

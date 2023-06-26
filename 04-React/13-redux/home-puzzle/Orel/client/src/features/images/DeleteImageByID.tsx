@@ -4,7 +4,7 @@ import { deleteImage } from "./imgBoxSlice";
 import { Box, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Paper, PaperProps } from "@mui/material";
 import { DeleteForever } from "@mui/icons-material";
 import Draggable from 'react-draggable';
-import { updateImageByIDProps } from "./ImgBox";
+import { updateImageByIDProps } from "./UpdateImageByID";
 
 
 export const DeleteImageByID: React.FC<updateImageByIDProps> = ({ id }) => {
